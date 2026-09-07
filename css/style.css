@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+	margin: 0;
+	background-color: white;
+}
+
+main {
+	width: 80%;
+	margin: auto;
+}
+
+header {
+    background-color: gold;
+	color: black;
+	padding: 20px;
+	border-bottom: 5px solid darkred
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+header img {
+	width: 100px;
+	height: auto;
+	margin-right: 20px;
+}
+h1 {
+	margin-bottom: 5px;
+}
+section h2 {
+	color: darkred;
+	text-align: center;
+}
+section h3 {
+	color: darkred;
+}
+.campus-image {
+    width: 100%;
+    height: auto;
+	border-radius: 10px;
+}
+nav {
+    background-color: lightgray;
+	padding: 15px;
+	text-align: center;
+}
+nav a {
+	margin: 0 15px;
+	text-decoration: none;
+	color: darkred;
+	font-weight: bold;
+}
+nav a:hover {
+	color: gold;
+}
+
+section {
+    border: 2px solid darkred;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: white;
+	`box-shadow: 2px 2px 8px lightgray
+}
+
+footer {
+	background-color: darkred;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	margin-top:20px;
+}
+
